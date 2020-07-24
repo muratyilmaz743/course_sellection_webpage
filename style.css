@@ -1,0 +1,47 @@
+
+.item1 { grid-area: header; }
+.item2 { grid-area: secondHeader; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+.item1{
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    height: 63px;
+    background-color:#E6EDF1;
+}
+.item2{
+
+}
+.item3{
+    
+}
+.ders_bölümleme{
+    width: 106px; 
+    position: relative; 
+    left: -550px;
+    top: 220px;
+    height:2px;
+    border-width:0;
+    color:rgb(0, 0, 0);
+    background-color:black;
+}
+.dönemler{
+    position: relative;
+    left: 157px; 
+    top: 238px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    
+    background-image: url(background.png);
+    height: 2111px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
